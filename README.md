@@ -18,6 +18,7 @@
 ####  附录：【斐讯N1】拉取命令
 下载 CloudflareST 压缩包（自行根据需求替换 URL 中 [版本号] 和 [文件名]）
 wget -N https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.0.2/CloudflareST_linux_arm64.tar.gz
+
 注意！国内下载时，建议把 URL 中的 github.com 替换为 download.fastgit.org (镜像站) 以避免下载失败
 
 解压（不需要删除旧文件，会直接覆盖，自行根据需求替换 文件名）删除
