@@ -10,6 +10,11 @@
 ####  3.拉取CloudflareSpeedTest
  - [ CloudflareSpeedTest ](https://github.com/XIU2/CloudflareSpeedTest)
 
+
+
+####  4.设置定时任务
+`0 18 * * * bash /root/cf_start.sh > /dev/null`
+
 ####【斐讯N1】拉取命令
 # 下载 CloudflareST 压缩包（自行根据需求替换 URL 中 [版本号] 和 [文件名]）
 wget -N https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.0.2/CloudflareST_linux_arm64.tar.gz
@@ -29,6 +34,3 @@ chmod +x CloudflareST
 
 # 运行（带参数示例）
 ./CloudflareST -dd -tll 90
-
-####  4.设置定时任务
-`0 18 * * * bash /root/cf_start.sh > /dev/null`
