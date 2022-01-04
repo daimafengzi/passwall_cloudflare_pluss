@@ -25,9 +25,11 @@ echo "最快的IP为：$anycast"
 
 #设置passwall的IP
 uci set passwall.1cc4384d183942aa9883e2425601489d.address=$anycast
+wait
 uci commit passwall
 
 #启动passwall
+wait
 /etc/init.d/passwall restart
 
 #设置ssrplus的IP
