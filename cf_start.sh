@@ -41,7 +41,7 @@ val7=($(sed -n '7p' result.csv ) )
 array7=(${val7//,/ })
 anycast7="${array7[0]}"
 
-val8=($(sed -n '2p' result.csv ) )
+val8=($(sed -n '8p' result.csv ) )
 array8=(${val8//,/ })
 anycast8="${array8[0]}"
 
